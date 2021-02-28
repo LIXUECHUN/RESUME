@@ -152,7 +152,10 @@ body {
 .page > .content > .container .prize {
   font-weight: 600;
 }
-
+/* campus */
+.page > .content > .container .campus {
+  font-weight: 600;
+}
 /* 大型设备（大台式电脑，1200px 起）设计宽度=1000 */
 @media screen and (min-width: 1200px) { 
 
@@ -240,8 +243,18 @@ body {
   .page > .header {
     padding: 46px 80px;
     height: 250px;
-}
+  }
   .page > .content {
     padding: 0 60px;
+  }
+  .page > .content > .container .prize {
+    display: flex;
+    font-weight: 600;
+  }
+  .page > .content > .container .prize > ul:first-child {
+    width: 56%;
+  }
+  .page > .content > .container .prize > ul:last-child {
+    width: 44%;
   }
 }
