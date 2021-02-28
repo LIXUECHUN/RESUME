@@ -251,10 +251,7 @@ body {
     display: flex;
     font-weight: 600;
   }
-  .page > .content > .container .prize > ul:first-child {
-    width: 56%;
-  }
-  .page > .content > .container .prize > ul:last-child {
-    width: 44%;
+  .page > .content > .container .prize > ul {
+    width: 50%;
   }
 }
